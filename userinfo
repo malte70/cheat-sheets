@@ -1,0 +1,12 @@
+--
+tags: [ system ]
+--
+# Show some information about the current user
+userinfo
+
+# Show info for one or more users
+userinfo <user1> <user2>
+
+# Huge letters using figlet
+userinfo --figlet <user>
+

@@ -1,0 +1,6 @@
+---
+tags: [ networking ]
+---
+# Create a basic screenshot of a website:
+website-screenshot <url> <filename.png>
+
