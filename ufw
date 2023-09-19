@@ -1,0 +1,34 @@
+---
+tags: [ networking ]
+---
+# Firewall status
+sudo ufw status verbose
+
+# Allow incoming traffic
+sudo ufw allow qotd/tcp
+
+# Deny acces from IP or subnet
+sudo ufw deny from 10.1.2.3
+sudo ufw deny from 192.168.42.0/24
+
+# Allow KVM guests access to all ports
+sudo ufw allow in on virbr0 from 192.168.122.0/24
+
+# Allow only IPv4, not IPv6
+sudo ufw allow proto tcp to 0.0.0.0/0 port 17 comment "Quote of the Day"
+
+# Enable/disable logging
+sudo ufw logging on|off
+
+# Generic UFW syntax
+sudo ufw [delete] allow|deny|reject [proto <protokoll>] [from <adresse> [port <port>]] [to <addresse> [port <port>]] [comment <kommentar>]
+
+
+# Additional ressources: man pages, Wiki entries and more
+→ ufw(8)
+→ ufw-framework(8)
+→ https://ubuntu.com/server/docs/security-firewall
+→ https://help.ubuntu.com/community/UFW
+→ https://wiki.archlinux.org/title/Uncomplicated_Firewall
+→ https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
+
