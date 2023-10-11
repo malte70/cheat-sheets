@@ -1,0 +1,23 @@
+---
+syntax: markdown
+tags: [ networking ]
+modeline: " vim: set ft=markdown: "
+---
+
+# Web Development
+
+Some web development related commands
+
+## HTTP Requests
+
+```sh
+http --print=Hhb malte70.de
+```
+
+
+## Small Web
+
+```sh
+amfora gemini.malte70.de
+```
+
