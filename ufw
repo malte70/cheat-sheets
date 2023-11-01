@@ -25,10 +25,10 @@ sudo ufw [delete] allow|deny|reject [proto <protokoll>] [from <adresse> [port <p
 
 
 # Additional ressources: man pages, Wiki entries and more
-→ ufw(8)
-→ ufw-framework(8)
-→ https://ubuntu.com/server/docs/security-firewall
-→ https://help.ubuntu.com/community/UFW
-→ https://wiki.archlinux.org/title/Uncomplicated_Firewall
-→ https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
+-> ufw(8)
+-> ufw-framework(8)
+-> https://ubuntu.com/server/docs/security-firewall
+-> https://help.ubuntu.com/community/UFW
+-> https://wiki.archlinux.org/title/Uncomplicated_Firewall
+-> https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
 
